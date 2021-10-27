@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Example of CSS External Style Sheet</title>
+    <link rel="stylesheet" href="polygon.css">
+</head>
+    
+<body>
+
 <div id="floating-panel">
     <input onclick="createPolygon();" type=button value="Crear/Actualizar Poligono">
     <input onclick="createPolygonTexto();" type=button value="Generar desde json">
@@ -9,8 +19,10 @@
 <textarea id="textarea" rows="30" cols="50">
 
 </textarea>
+
+</body>    
 <!-- Replace the value of the key parameter with your own API key. -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
-
-
 </script>
+
+</html>
